@@ -1,0 +1,113 @@
+.header
+{
+    width:100%;
+    background-color: rgb(7, 40, 150);
+    padding: 5px;
+    display: flex;
+    text-decoration-color: beige;
+    position: sticky;
+    top:10px;
+
+}
+.header>h3{
+    color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:50px;
+    display: inline-block;
+    margin-top: 25px;
+    cursor: pointer;
+    /* justify-content: right; */
+}
+h3:hover {
+    background-color: rgb(62, 62, 54);
+    opacity: 1.5;
+  }
+
+  .one
+  {
+    background-color: rgb(139, 197, 246);
+    float:left;
+    /* margin: 30px; */
+    padding: 50px;
+    display: flex;
+    width:100%
+  }
+  /* .col{
+    background-color: blue;
+    width: 100px;
+    height: 200px;
+    margin:10px;
+}
+.col2{
+  background-color: rgb(187, 255, 0);
+  left:100px;
+} */
+.col
+{
+  margin: 90px;
+  width: 100%;
+}
+.col2{
+  /* background-color: rgb(187, 255, 0); */
+  left:100px;
+}
+
+.col2 h2:hover
+{
+ background-image: url('./IMAGES/sachin.jpg');
+ background-repeat: no-repeat;
+ height: 500px;
+ width: 400px;
+} 
+.one img:hover {
+  transform: scale(1.5);
+}
+.two{
+  background-color: rgb(215, 235, 235);
+  width: 100%;
+  display: flex;
+}
+p{
+  text-align: center;
+  font-size: larger;
+}
+.col3
+{
+  background-color: rgb(161, 181, 236);  
+  padding: 5px; 
+  border-radius: 20px 30px;
+  box-shadow: 10px 10px rgb(21, 21, 20);
+}
+.col4{
+  background-color:  rgb(161, 181, 236);
+  padding: 5px;
+  border-radius: 20px 30px;
+  box-shadow: 10px 10px rgb(21, 21, 20);
+}
+.col5{
+  background-color:  rgb(161, 181, 236);
+  padding: 5px;
+  border-radius: 20px 30px;
+  box-shadow: 10px 10px rgb(21, 21, 20);
+}
+.col6 img{
+height: 200px;
+width: 200px;
+}
+img{
+  height: 300px;
+  width: 300px;
+}
+.row img:hover{
+  transform: scale(1.5);
+}
+iframe + div {
+  display: none;
+}
+
+iframe:hover + div {
+  display: block;
+  color: rgb(13, 14, 13);
+  font-size: 25px;
+  top:-10px;
+}
